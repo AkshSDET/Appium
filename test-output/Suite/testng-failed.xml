@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Test.New_Post_Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="createpost"/>
+          <include name="initObj"/>
+        </methods>
+      </class> <!-- Test.New_Post_Test -->
+      <class name="Test.Tag_People_Post_Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="postwithtag"/>
+          <include name="initObj"/>
+        </methods>
+      </class> <!-- Test.Tag_People_Post_Test -->
+      <class name="Test.Follow_Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="followpeople"/>
+          <include name="initObj"/>
+          <include name="searchpeople"/>
+        </methods>
+      </class> <!-- Test.Follow_Test -->
+      <class name="Test.Home_Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="scroll"/>
+          <include name="checkTitle"/>
+          <include name="setup"/>
+          <include name="initObj"/>
+        </methods>
+      </class> <!-- Test.Home_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
